@@ -1,8 +1,8 @@
 
 // 部署完成后在网址后面加上这个，获取自建节点和机场聚合节点，/?token=auto或/auto或
 
-let mytoken = 'jxc';
-let guestToken = 'wm'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
+let mytoken = 'wifi';
+let guestToken = 'wifi'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
 let BotToken = ''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID = ''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 
 let urls = [];
 let subConverter = "zhuanhuan.239000.xyz"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subConfig = "https://raw.githubusercontent.com/2275273/subconverter/refs/heads/main/rule_DNS.ini"; //订阅配置文件
+let subConfig = "https://raw.githubusercontent.com/2275273/subconverter/refs/heads/main/rule_by_morephone.ini"; //订阅配置文件
 let subProtocol = 'https';
 
 export default {
