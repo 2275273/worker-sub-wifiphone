@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 `;
 
 let urls = [];
-let subConverter = "zhuanhuan.239000.xyz"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
+let subConverter = "subsub.239000.xyz"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subConfig = "https://raw.githubusercontent.com/2275273/subconverter/refs/heads/main/rule_by_morephone.ini"; //订阅配置文件
 let subProtocol = 'https';
 
